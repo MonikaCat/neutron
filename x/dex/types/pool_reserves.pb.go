@@ -13,7 +13,7 @@ import (
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
 
-	github_com_neutron_org_neutron_utils_math "github.com/neutron-org/neutron/utils/math"
+	github_com_neutron_org_neutron_utils_math "github.com/MonikaCat/neutron/v2/utils/math"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -90,8 +90,8 @@ func (m *PoolReservesKey) GetFee() uint64 {
 type PoolReserves struct {
 	Key                       *PoolReservesKey                                  `protobuf:"bytes,1,opt,name=key,proto3" json:"key,omitempty"`
 	ReservesMakerDenom        github_com_cosmos_cosmos_sdk_types.Int            `protobuf:"bytes,2,opt,name=reserves_maker_denom,json=reservesMakerDenom,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Int" json:"reserves_maker_denom" yaml:"reserves_maker_denom"`
-	PriceTakerToMaker         github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,3,opt,name=price_taker_to_maker,json=priceTakerToMaker,proto3,customtype=github.com/neutron-org/neutron/utils/math.PrecDec" json:"price_taker_to_maker" yaml:"price_taker_to_maker"`
-	PriceOppositeTakerToMaker github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,4,opt,name=price_opposite_taker_to_maker,json=priceOppositeTakerToMaker,proto3,customtype=github.com/neutron-org/neutron/utils/math.PrecDec" json:"price_opposite_taker_to_maker" yaml:"price_opposite_taker_to_maker"`
+	PriceTakerToMaker         github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,3,opt,name=price_taker_to_maker,json=priceTakerToMaker,proto3,customtype=github.com/MonikaCat/neutron/v2/utils/math.PrecDec" json:"price_taker_to_maker" yaml:"price_taker_to_maker"`
+	PriceOppositeTakerToMaker github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,4,opt,name=price_opposite_taker_to_maker,json=priceOppositeTakerToMaker,proto3,customtype=github.com/MonikaCat/neutron/v2/utils/math.PrecDec" json:"price_opposite_taker_to_maker" yaml:"price_opposite_taker_to_maker"`
 }
 
 func (m *PoolReserves) Reset()         { *m = PoolReserves{} }

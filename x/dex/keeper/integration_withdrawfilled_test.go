@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"math"
 
-	"github.com/neutron-org/neutron/x/dex/types"
+	"github.com/MonikaCat/neutron/v2/x/dex/types"
 )
 
 func (s *DexTestSuite) TestWithdrawFilledSimpleFull() {

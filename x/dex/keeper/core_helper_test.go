@@ -8,9 +8,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	neutronapp "github.com/neutron-org/neutron/app"
-	"github.com/neutron-org/neutron/testutil"
-	"github.com/neutron-org/neutron/x/dex/types"
+	neutronapp "github.com/MonikaCat/neutron/v2/app"
+	"github.com/MonikaCat/neutron/v2/testutil"
+	"github.com/MonikaCat/neutron/v2/x/dex/types"
 )
 
 // Test Suite ///////////////////////////////////////////////////////////////

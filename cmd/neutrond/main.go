@@ -5,7 +5,7 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/neutron-org/neutron/app"
+	"github.com/MonikaCat/neutron/v2/app"
 )
 
 func main() {

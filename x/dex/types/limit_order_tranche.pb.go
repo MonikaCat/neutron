@@ -16,7 +16,7 @@ import (
 	github_com_cosmos_gogoproto_types "github.com/cosmos/gogoproto/types"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
 
-	github_com_neutron_org_neutron_utils_math "github.com/neutron-org/neutron/utils/math"
+	github_com_neutron_org_neutron_utils_math "github.com/MonikaCat/neutron/v2/utils/math"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -101,7 +101,7 @@ type LimitOrderTranche struct {
 	// All JIT orders have a goodTilDate of 0 and an exception is made to still still treat these orders as live
 	// Order deletion still functions the same and the orders will be deleted at the end of the block
 	ExpirationTime    *time.Time                                        `protobuf:"bytes,6,opt,name=expiration_time,json=expirationTime,proto3,stdtime" json:"expiration_time,omitempty"`
-	PriceTakerToMaker github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,7,opt,name=price_taker_to_maker,json=priceTakerToMaker,proto3,customtype=github.com/neutron-org/neutron/utils/math.PrecDec" json:"price_taker_to_maker" yaml:"price_taker_to_maker"`
+	PriceTakerToMaker github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,7,opt,name=price_taker_to_maker,json=priceTakerToMaker,proto3,customtype=github.com/MonikaCat/neutron/v2/utils/math.PrecDec" json:"price_taker_to_maker" yaml:"price_taker_to_maker"`
 }
 
 func (m *LimitOrderTranche) Reset()         { *m = LimitOrderTranche{} }

@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/neutron-org/neutron/x/feeburner/types"
+	"github.com/MonikaCat/neutron/v2/x/feeburner/types"
 )
 
 var _ types.QueryServer = Keeper{}

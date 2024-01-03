@@ -4,7 +4,7 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/neutron-org/neutron/x/tokenfactory/types"
+	"github.com/MonikaCat/neutron/v2/x/tokenfactory/types"
 )
 
 func (suite *KeeperTestSuite) TestGenesis() {

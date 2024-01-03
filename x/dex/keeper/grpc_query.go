@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/neutron-org/neutron/x/dex/types"
+	"github.com/MonikaCat/neutron/v2/x/dex/types"
 )
 
 var _ types.QueryServer = Keeper{}

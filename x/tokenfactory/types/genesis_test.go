@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/neutron-org/neutron/app"
-	"github.com/neutron-org/neutron/x/tokenfactory/types"
+	"github.com/MonikaCat/neutron/v2/app"
+	"github.com/MonikaCat/neutron/v2/x/tokenfactory/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/neutron-org/neutron/x/dex/types"
+	"github.com/MonikaCat/neutron/v2/x/dex/types"
 )
 
 // TODO: This doesn't run ValidateBasic() checks.

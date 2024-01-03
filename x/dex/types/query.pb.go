@@ -24,7 +24,7 @@ import (
 	status "google.golang.org/grpc/status"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
 
-	github_com_neutron_org_neutron_utils_math "github.com/neutron-org/neutron/utils/math"
+	github_com_neutron_org_neutron_utils_math "github.com/MonikaCat/neutron/v2/utils/math"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -1307,7 +1307,7 @@ type QueryEstimateMultiHopSwapRequest struct {
 	Receiver       string                                            `protobuf:"bytes,2,opt,name=receiver,proto3" json:"receiver,omitempty"`
 	Routes         []*MultiHopRoute                                  `protobuf:"bytes,3,rep,name=routes,proto3" json:"routes,omitempty"`
 	AmountIn       github_com_cosmos_cosmos_sdk_types.Int            `protobuf:"bytes,4,opt,name=amount_in,json=amountIn,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Int" json:"amount_in" yaml:"amount_in"`
-	ExitLimitPrice github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,5,opt,name=exit_limit_price,json=exitLimitPrice,proto3,customtype=github.com/neutron-org/neutron/utils/math.PrecDec" json:"exit_limit_price" yaml:"exit_limit_price"`
+	ExitLimitPrice github_com_neutron_org_neutron_utils_math.PrecDec `protobuf:"bytes,5,opt,name=exit_limit_price,json=exitLimitPrice,proto3,customtype=github.com/MonikaCat/neutron/v2/utils/math.PrecDec" json:"exit_limit_price" yaml:"exit_limit_price"`
 	// If pickBestRoute == true then all routes are run and the route with the best price is chosen
 	// otherwise, the first succesful route is used.
 	PickBestRoute bool `protobuf:"varint,6,opt,name=pick_best_route,json=pickBestRoute,proto3" json:"pick_best_route,omitempty"`

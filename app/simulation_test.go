@@ -19,7 +19,7 @@ package app_test
 //	"github.com/cosmos/cosmos-sdk/x/simulation"
 //	"github.com/stretchr/testify/require"
 //
-//	"github.com/neutron-org/neutron/app"
+//	"github.com/MonikaCat/neutron/v2/app"
 //)
 //
 // func init() {
